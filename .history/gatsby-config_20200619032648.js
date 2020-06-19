@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Roundafire Blog`,
+    title: `Gatsby Starter Blog`,
     author: {
-      name: `Lesego Sebusi`,
-      summary: `who lives and works in Gauten building useful things.`,
+      name: `Kyle Mathews`,
+      summary: `who lives and works in San Francisco building useful things.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://www.roundafire.co.za/`,
+    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
       twitter: `kylemathews`,
     },
@@ -76,7 +76,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    `gatsby-plugin-netlify-cms`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
