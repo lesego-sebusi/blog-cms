@@ -1,0 +1,8 @@
+html {
+    background-color: rgb(230, 172, 148);
+}
+
+a {
+    text-decoration: none !important;
+    color: blueviolet;
+}

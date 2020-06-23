@@ -8,8 +8,9 @@ module.exports = {
     description: `Roundafire Blog`,
     siteUrl: `https://www.roundafire.co.za/`,
     social: {
-      twitter: `leslo360`,
+      twitter: `kylemathews`,
     },
+    icon: `content/assets/logo-03.png`,
   },
   plugins: [
     {
@@ -60,13 +61,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Roundafire Blog `,
-        short_name: `RoundafireBlog`,
+        name: `Gatsby Starter Blog`,
+        short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#FCEFE9`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/logo-icon.png`,
+        icon: `content/assets/logo-03.png`,
       },
     },
     `gatsby-plugin-react-helmet`,

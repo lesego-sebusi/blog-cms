@@ -8,8 +8,9 @@ module.exports = {
     description: `Roundafire Blog`,
     siteUrl: `https://www.roundafire.co.za/`,
     social: {
-      twitter: `leslo360`,
+      twitter: `kylemathews`,
     },
+    icon: `content/assets/w-logo.png`,
   },
   plugins: [
     {
@@ -66,7 +67,7 @@ module.exports = {
         background_color: `#FCEFE9`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/logo-icon.png`,
+        icon: `content/assets/logo-03.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
