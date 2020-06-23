@@ -23,7 +23,7 @@ const Bio = () => {
       }
       avatar2: file(absolutePath: { regex: "/output-onlinepngtools-2.png/" }) {
         childImageSharp {
-          fixed(width: 450, height: 200) {
+          fixed(width: 450, height: 300) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -84,9 +84,11 @@ const Bio = () => {
           fixed={data.avatar2.childImageSharp.fixed}
           alt={author.name}
           style={{
-            marginBottom: 0,
-            transform: `scale(1)`,
+            marginBottom: -100,
+            marginTop: -110,
+            transform: `scale(0.6)`,
             zIndex: -999,
+            marginLeft: 110,
           }}
         />
       </Link>
