@@ -10,7 +10,6 @@ module.exports = {
     social: {
       twitter: `leslo360`,
     },
-    icon: `content/assets/w-logo.png`,
   },
   plugins: [
     {
