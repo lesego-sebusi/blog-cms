@@ -5,11 +5,12 @@ module.exports = {
       name: `Lesego Sebusi`,
       summary: `who lives and works in Gauten building useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Roundafire Blog`,
     siteUrl: `https://www.roundafire.co.za/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `leslo360`,
     },
+    icon: `content/assets/w-logo.png`,
   },
   plugins: [
     {
@@ -60,13 +61,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Roundafire Blog `,
+        short_name: `RoundafireBlog`,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#FCEFE9`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/logo-03.png`,
       },
     },
     `gatsby-plugin-react-helmet`,

@@ -9,10 +9,12 @@ import { rhythm, scale } from "../utils/typography"
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
+  const siteLogo = data.site.siteMetadata.icon
   const { previous, next } = pageContext
 
   return (
     <Layout location={location} title={siteTitle}>
+      <Bio />
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
